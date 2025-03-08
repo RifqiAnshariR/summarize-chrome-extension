@@ -1,0 +1,25 @@
+{
+  "name": "summarize-extension-v1",
+  "version": "1.0.0",
+  "description": "summarization chrome extension",
+  "main": "popup.js",
+  "scripts": {
+    "test": "summarization chrome extension",
+    "lint": "eslint ./scripts/popup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RifqiAnshariR/summarize-chrome-extension.git"
+  },
+  "author": "Rifqi AR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RifqiAnshariR/summarize-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/RifqiAnshariR/summarize-chrome-extension#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
+}

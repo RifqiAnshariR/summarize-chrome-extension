@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+venv/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+.DS_Store
+
+# Environment Variables
+.env
+.env.local

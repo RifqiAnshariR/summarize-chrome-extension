@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Page Layout */
+.page {
+    width: 250px;
+    min-height: 100px;
+    background: #f9f9f9;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* Typography */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #333;
+    margin: auto;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    resize: none;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Status Indicator */
+.default {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: grey;
+}
+
+.online {
+    background-color: green !important;
+}
+
+.offline {
+    background-color: red !important;
+}
+
+/* Output Text */
+#summaryText {
+    text-align: left;
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+
+#version {
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    margin: 0px 5px;
+    padding: 0;
+}

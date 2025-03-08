@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Text Summarizer
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="inputPage" class="page">
+        <h2>
+            Text Summarizer
+            <span id="apiStatus" class="default"></span>
+        </h2>
+        <textarea id="inputText" rows="4" placeholder="Insert text..."></textarea>
+        <button id="summarizeBtn">
+            Summarize
+        </button>
+    </div>
+
+    <div id="outputPage" class="page" style="display: none;">
+        <h2>
+            Result
+        </h2>
+        <p id="summaryText"></p>
+        <button id="backBtn">
+            Back
+        </button>
+    </div>
+
+    <p id="version">version: 1.0</p>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
